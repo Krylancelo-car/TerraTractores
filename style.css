@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f1ec;
+    color: #2b2b2b;
+}
+
+header {
+    background-color: #2b2b2b;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header img {
+    height: 90px;
+}
+
+.menu-H {
+    background-color: #2b2b2b;
+    border-top: 3px solid #e8720c;
+}
+
+.menu-H ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #e8720c;
+}
+
+.menu-H a {
+    display: block;
+    padding: 15px 20px;
+    color: #2b2b2b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-H a:hover {
+    background-color: #2b2b2b;
+    color: #e8720c;
+}
+
+.banner {
+    background-color: #2b2b2b;
+    color: #f4f1ec;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.banner h1 {
+    color: #e8720c;
+    font-size: 42px;
+    margin: 0 0 10px 0;
+}
+
+.contenido {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+h2 {
+    color: #e8720c;
+    border-bottom: 3px solid #2b2b2b;
+    padding-bottom: 8px;
+}
+
+.espacio-imagen {
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    background-color: #ddd;
+    border: 3px dashed #e8720c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2b2b2b;
+    font-weight: bold;
+    margin: 15px auto;
+}
+
+.foto {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border: 3px solid #e8720c;
+    border-radius: 8px;
+    margin: 15px auto;
+}
+
+.foto-producto {
+    display: block;
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border: 2px solid #2b2b2b;
+    border-radius: 8px;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    border: 2px solid #2b2b2b;
+    border-radius: 10px;
+    width: 260px;
+    padding: 15px;
+    text-align: center;
+}
+
+.tarjeta h3 {
+    color: #e8720c;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #2b2b2b;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #e8720c;
+    color: #2b2b2b;
+}
+
+table tr:nth-child(even) {
+    background-color: #f4f1ec;
+}
+
+form {
+    background-color: #ffffff;
+    border: 2px solid #e8720c;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #2b2b2b;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #2b2b2b;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    margin-top: 20px;
+    background-color: #e8720c;
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2b2b2b;
+}
+
+footer {
+    background-color: #2b2b2b;
+    color: #f4f1ec;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #e8720c;
+    text-decoration: none;
+}
+
+ul.lista-simple {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
